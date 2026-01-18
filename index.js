@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Base API URL
-const BASE_API = "https://ioark-apiv1.onrender.com";
+const BASE_API = "https://vern-rest-api.vercel.app/api/share?cookie=&link=&limit=";
 
 // Fix __dirname for ES modules
 const __filename = fileURLToPath(import.meta.url);
